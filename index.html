@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+    <title>HTML Canvas | Javascript</title>
+    <link rel="icon" href="assets/img/meditate-logo.jpg" />
+    <link rel="icon" href="http://203.193.173.125/buildriseshine/favicon.png" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>HTML Canvas</h1>
+      <a href="https://github.com/Praneep-BRS/HTML-canvas">
+        <button class="btn">Git-Repo</button>
+      </a>
+    </header>
+
+    <main role="main">
+      <div class="main-header">
+        <div class="heding-content">
+          <h3>Draw your own Canvas</h3>
+          <p>Drag your mouse inside the box to create canvas</p>
+        </div>
+        <button id="rest-canvas">
+          <p>Reset</p>
+          <i class="ph ph-arrow-clockwise"></i>
+        </button>
+      </div>
+      <canvas id="draw"></canvas>
+    </main>
+
+    <footer class="footer footer-dark">
+      <div class="d-flex justify-content-center px-5">
+        <div>
+          <button
+            onclick="setTheme('#35a7bb')"
+            class="theme-switch theme-switch-chathams_blue"></button>
+          <button
+            onclick="setTheme('#991E14')"
+            class="theme-switch theme-switch-tamarillo"></button>
+          <button
+            onclick="setTheme('#FEAD06')"
+            class="theme-switch theme-switch-yellow_sea"></button>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
